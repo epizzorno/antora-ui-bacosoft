@@ -40,16 +40,3 @@ bundle-dev:
     expire_in: 1 day # unless marked as keep from job page
     paths:
     - build/ui-bundle.zip
-pages:
-  stage: deploy
-  only:
-  - master@bacosoft/antora-ui-bacosoft
-  cache: *pull_cache
-  script:
-  - *npm_install
-  - node_modules/.bin/gulp preview:build
-  # FIXME figure out a way to avoid copying these files to preview site
-  - rm -rf public/_/{helpers,layouts,partials}
-  artifacts:
-    paths:
-    - public
