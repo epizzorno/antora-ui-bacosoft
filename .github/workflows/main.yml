@@ -35,5 +35,5 @@ jobs:
     - name: Archive bundle
       uses: actions/upload-artifact@v2
       with:
-        name: build
         path: build/ui-bundle.zip
+        if-no-files-found: error
