@@ -28,3 +28,12 @@ jobs:
           ${{ runner.OS }}-
     - name: Install dependencies
       run: npm ci
+    - name: lint
+      run: node_modules/.bin/gulp lint
+    - name: bundle
+      run: node_modules/.bin/gulp bundle
+    - name: Archive bundle
+      uses: actions/upload-artifact@v2
+      with:
+        name: build
+        path: build/ui-bundle.zip
