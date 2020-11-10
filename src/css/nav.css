@@ -1,4 +1,5 @@
 .nav-container {
+  display: none;
   position: fixed;
   top: var(--navbar-height);
   left: 0;
