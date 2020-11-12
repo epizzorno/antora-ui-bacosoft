@@ -302,23 +302,23 @@
 }
 
 .doc .admonitionblock.important .icon i::after {
-    content: "IMPORTANTE";
+  content: "IMPORTANTE";
 }
 
 .doc .admonitionblock.caution .icon i::after {
-    content: "CUIDADO";
+  content: "CUIDADO";
 }
 
 .doc .admonitionblock.warning .icon i::after {
-    content: "ADVERTENCIA";
+  content: "ADVERTENCIA";
 }
 
 .doc .admonitionblock.tip .icon i::after {
-    content: "CONSEJO";
+  content: "CONSEJO";
 }
 
 .doc .admonitionblock.note .icon i::after {
-    content: "NOTA";
+  content: "NOTA";
 }
 
 .doc .imageblock {
