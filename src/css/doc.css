@@ -301,6 +301,26 @@
   content: attr(title);
 }
 
+.doc .admonitionblock.important .icon i::after {
+  content: "IMPORTANTE";
+}
+
+.doc .admonitionblock.caution .icon i::after {
+  content: "CUIDADO";
+}
+
+.doc .admonitionblock.warning .icon i::after {
+  content: "ADVERTENCIA";
+}
+
+.doc .admonitionblock.tip .icon i::after {
+  content: "CONSEJO";
+}
+
+.doc .admonitionblock.note .icon i::after {
+  content: "NOTA";
+}
+
 .doc .imageblock {
   display: flex;
   flex-direction: column;
