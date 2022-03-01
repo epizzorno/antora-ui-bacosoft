@@ -5,6 +5,7 @@
   --color-smoke-30: #fafafa;
   --color-smoke-50: #f5f5f5;
   --color-smoke-70: #f0f0f0;
+  --color-smoke-80: #eaeaea;
   --color-smoke-90: #e1e1e1;
   --color-gray-10: #c1c1c1;
   --color-gray-30: #8e8e8e;
@@ -29,7 +30,7 @@
   --monospace-font-weight-bold: 500;
   /* base */
   --body-background: var(--color-white);
-  --panel-background: var(--color-smoke-30);
+  --panel-background: var(--color-smoke-80);
   --panel-border-color: var(--color-smoke-90);
   --scrollbar-thumb-color: var(--color-gray-10);
   /* navbar */

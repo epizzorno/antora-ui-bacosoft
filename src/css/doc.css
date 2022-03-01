@@ -617,14 +617,13 @@
   white-space: nowrap;
 }
 
-.doc b.button::before {
-  content: "[";
-  padding-right: 0.25em;
-}
-
-.doc b.button::after {
-  content: "]";
-  padding-left: 0.25em;
+.doc .button {
+    background-color: #d0d0d0;
+    border-radius: 0.28571429rem;
+    padding-left: 0.44444444rem;
+    padding-right: 0.44444444rem;
+    padding-top: 0.22222222rem;
+    padding-bottom: 0.22222222rem;
 }
 
 .doc kbd {
@@ -680,4 +679,12 @@
 .doc th.tableblock,
 .doc td.tableblock {
   word-break: break-word; /* overflow-wrap for table cells; gives space higher precedence than hyphen opportunity */
+}
+
+.blue {
+  color: #2185d0
+}
+
+.button .blue {
+  font-weight: bold;
 }
