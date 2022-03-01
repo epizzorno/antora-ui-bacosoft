@@ -618,12 +618,9 @@
 }
 
 .doc .button {
-    background-color: #d0d0d0;
-    border-radius: 0.28571429rem;
-    padding-left: 0.44444444rem;
-    padding-right: 0.44444444rem;
-    padding-top: 0.22222222rem;
-    padding-bottom: 0.22222222rem;
+  background-color: var(--kbd-background);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
 }
 
 .doc kbd {
