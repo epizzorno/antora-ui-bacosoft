@@ -617,14 +617,10 @@
   white-space: nowrap;
 }
 
-.doc b.button::before {
-  content: "[";
-  padding-right: 0.25em;
-}
-
-.doc b.button::after {
-  content: "]";
-  padding-left: 0.25em;
+.doc .button {
+  background-color: var(--kbd-background);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
 }
 
 .doc kbd {
@@ -680,4 +676,12 @@
 .doc th.tableblock,
 .doc td.tableblock {
   word-break: break-word; /* overflow-wrap for table cells; gives space higher precedence than hyphen opportunity */
+}
+
+.blue {
+  color: #2185d0;
+}
+
+.button .blue {
+  font-weight: bold;
 }
