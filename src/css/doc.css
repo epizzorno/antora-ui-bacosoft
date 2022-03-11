@@ -683,11 +683,11 @@
   word-break: break-word; /* overflow-wrap for table cells; gives space higher precedence than hyphen opportunity */
 }
 
-.icon,
-.blueicon,
-.greenicon,
-.redicon,
-.orangeicon {
+.button .icon,
+.button .blueicon,
+.button .greenicon,
+.button .redicon,
+.button .orangeicon {
   font-family: "Font Awesome 6 Free", sans-serif;
   font-weight: 900;
 }
