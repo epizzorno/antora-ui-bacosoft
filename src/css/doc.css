@@ -687,7 +687,8 @@
 .button .blueicon,
 .button .greenicon,
 .button .redicon,
-.button .orangeicon {
+.button .orangeicon,
+.button .yellowicon, {
   font-family: "Font Awesome 6 Free", sans-serif;
   font-weight: 900;
 }
@@ -706,4 +707,8 @@
 
 .orangeicon {
   color: #f2711c;
+}
+
+.yellowicon {
+  color: #fbbd08;
 }
