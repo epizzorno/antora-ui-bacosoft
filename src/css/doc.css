@@ -683,7 +683,7 @@
   word-break: break-word; /* overflow-wrap for table cells; gives space higher precedence than hyphen opportunity */
 }
 
-.button .icon,
+.button .blackicon,
 .button .blueicon,
 .button .greenicon,
 .button .redicon,
