@@ -623,6 +623,11 @@
   padding: 0.25em 0.5em;
 }
 
+.doc .admonitionblock .button,
+.doc .sidebarblock .button {
+  border: 1px solid var(--darker-background);
+}
+
 .doc kbd {
   display: inline-block;
   font-size: calc(12 / var(--rem-base) * 1rem);
@@ -678,10 +683,32 @@
   word-break: break-word; /* overflow-wrap for table cells; gives space higher precedence than hyphen opportunity */
 }
 
-.blue {
+.button .icon,
+.button .blueicon,
+.button .greenicon,
+.button .redicon,
+.button .orangeicon,
+.button .yellowicon {
+  font-family: "Font Awesome 6 Free", sans-serif;
+  font-weight: 900;
+}
+
+.blueicon {
   color: #2185d0;
 }
 
-.button .blue {
-  font-weight: bold;
+.greenicon {
+  color: #21ba45;
+}
+
+.redicon {
+  color: #db2828;
+}
+
+.orangeicon {
+  color: #f2711c;
+}
+
+.yellowicon {
+  color: #fbbd08;
 }
