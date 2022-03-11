@@ -625,7 +625,7 @@
 
 .doc .admonitionblock .button,
 .doc .sidebarblock .button {
-  background-color: var(--darker-background);
+  border: 1px solid var(--darker-background);
 }
 
 .doc kbd {
