@@ -683,16 +683,6 @@
   word-break: break-word; /* overflow-wrap for table cells; gives space higher precedence than hyphen opportunity */
 }
 
-.button .icon,
-.button .blueicon,
-.button .greenicon,
-.button .redicon,
-.button .orangeicon,
-.button .yellowicon, {
-  font-family: "Font Awesome 6 Free", sans-serif;
-  font-weight: 900;
-}
-
 .blueicon {
   color: #2185d0;
 }
@@ -711,4 +701,14 @@
 
 .yellowicon {
   color: #fbbd08;
+}
+
+.button .icon,
+.button .blueicon,
+.button .greenicon,
+.button .redicon,
+.button .orangeicon,
+.button .yellowicon, {
+  font-family: "Font Awesome 6 Free", sans-serif;
+  font-weight: 900;
 }
