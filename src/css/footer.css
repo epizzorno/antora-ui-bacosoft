@@ -11,5 +11,10 @@ footer.footer {
 }
 
 .footer a {
-  color: var(--footer-link-font-color);
+  color: var(--footer-font-color);
+}
+
+.footer a:focus,
+.footer a:hover {
+  text-decoration: none;
 }
