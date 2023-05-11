@@ -719,8 +719,8 @@ li .openblock .content div:first-of-type {
 }
 
 .variable {
-    font-style: italic;
-    background: var(--variable-background);
-    border-radius: 0.25em;
-    padding: 0.25em 0.5em;
+  font-style: italic;
+  background: var(--variable-background);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
 }
