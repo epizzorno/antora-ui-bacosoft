@@ -33,7 +33,7 @@ jobs:
     - name: bundle
       run: node_modules/.bin/gulp bundle
     - name: Archive bundle
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         path: build/ui-bundle.zip
         if-no-files-found: error
