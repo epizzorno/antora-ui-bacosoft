@@ -331,6 +331,7 @@
 
 .doc .imageblock img {
   display: block;
+  border: 1px solid var(--panel-border-color);
 }
 
 .doc .imageblock img,
