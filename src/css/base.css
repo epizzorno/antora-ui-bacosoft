@@ -87,3 +87,11 @@ button::-moz-focus-inner {
 .help-window .toolbar {
   top: 0;
 }
+
+.help-window .nav-container {
+  top: 0;
+}
+
+.help-window .nav-panel-menu {
+  height: unset;
+}
