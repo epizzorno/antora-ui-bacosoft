@@ -74,3 +74,25 @@ button::-moz-focus-inner {
   border: none;
   padding: 0;
 }
+
+.help-window header,
+.help-window footer,
+.help-window .toolbar {
+  display: none;
+}
+
+.help-window body {
+  padding-top: 0;
+}
+
+.help-window .toolbar {
+  top: 0;
+}
+
+.help-window .nav-container {
+  top: 0;
+}
+
+.help-window .nav-panel-menu {
+  height: unset;
+}
