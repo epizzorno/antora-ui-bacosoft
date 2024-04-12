@@ -76,7 +76,8 @@ button::-moz-focus-inner {
 }
 
 .help-window header,
-.help-window footer {
+.help-window footer,
+.help-window .toolbar {
   display: none;
 }
 
